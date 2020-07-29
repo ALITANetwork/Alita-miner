@@ -10,9 +10,9 @@ Alitacoin-Miner
 
  1. Then download the AlitaMiner Client:
     
-        wget http://54.169.60.131:8080/Alita_verifier_mining_client-1.0.0.tar.gz
+        wget http://wallet2.alita.services:8080/Alita_verifier_mining_client-1.0.0.tar.gz
  
-     Or you can click [here](http://54.169.60.131:8080/Alita_verifier_mining_client-1.0.0.tar.gz) to download Alita-Miner Client
+     Or you can click [here](http://wallet2.alita.services:8080/Alita_verifier_mining_client-1.0.0.tar.gz) to download Alita-Miner Client
  
  2. Then run:
     
@@ -47,9 +47,9 @@ Alitacoin-Miner
           secretPhrase/password of mining Alita account.when you are mining Alita,it would send your passPhrase on commit results!
           (Don't missing the "" because it may failed when you run the miner shell.)
 
-    * alitaServer=http://wallet.alita.services:8080
+    * alitaServer=http://wallet.alita.services:8125
 
-          A AlitaServer to commit your mining info.Now use http://wallet.alita.services:8080 in Alita TestNet!
+          A AlitaServer to commit your mining info.Now use http://wallet.alita.services:8125 in Alita TestNet!
 
 
 

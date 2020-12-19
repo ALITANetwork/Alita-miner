@@ -90,7 +90,7 @@ function uninstall_agent(){ #检查本地k3s服务，如果没有启动则删除
     trap remove_uninstall EXIT
     if (ls /etc/systemd/system/k3s*.service || ls /etc/init.d/k3s*) >/dev/null 2>&1; then
         set +x; echo 'Additional k3s services installed, skipping uninstall of k3s'; set -x
-        exit
+        return
     fi
     for cmd in kubectl crictl ctr; do
         if [ -L /usr/local/bin/$cmd ]; then

@@ -1,6 +1,15 @@
 Alitacoin-Miner
 ===================================================================
  Alitacoin-Miner is a Miner for Alitacoin
+ 
+Here let's introduce the stack of the Alita Network.
+There are three main components:
+
+* Computing network, PC version container service based on k3s and Task Executor based on Android. We also developed the container orchestration service for the business clients.
+
+* Storage network, the data to process is stored in the private forked instance of IPFS network, which is extended to read and write row based flat files.
+
+* Accounting network, token mining, payment and smart contract(in Java and based on CIYAM), private forked from burstcoin. We plan to port to substrate chain and refactor the contract in Ink!. And also UIs will be redesigned.
 
  CentOS Instructions
  -----------
